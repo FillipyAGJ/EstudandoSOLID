@@ -37,12 +37,12 @@
             }
         ],
         "class-methods-use-this": "off",
-        "import/prefer-default-export": "off",
+        "import/prefer-default-export": true,
         "no-shadow": "off",
         "no-console": "off",
         "no-useless-constructor": "off",
         "no-empty-function": "off",
-        "lines-between-class-members": "off",
+        "lines-between-class-members": true,
         "import/extensions": [
             "error",
             "ignorePackages",
@@ -53,7 +53,7 @@
         "import-helpers/order-imports": [
             "warn",
             {
-                "newlinesBetween": false,
+                "newlinesBetween": true,
                 "groups": [
                     "module",
                     "/^@shared/",
